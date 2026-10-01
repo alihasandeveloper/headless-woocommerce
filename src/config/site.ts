@@ -1,0 +1,53 @@
+export const siteConfig = {
+  name: "Headless",
+  shortName: "Headless",
+  tagline: "সেরা দামে সেরা গ্যাজেট",
+  description: "Clean and minimal gadget store in Bangladesh. Buy top trending smart gadgets at the best prices.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000",
+  currency: {
+    code: "BDT",
+    symbol: "৳",
+    locale: "en-BD",
+  },
+  contact: {
+    email: "info@headless.com",
+    phone: "01622335937",
+    whatsapp: "01622335937",
+    messenger: "https://m.me/demo",
+    address: "Dhaka, Bangladesh",
+    businessHours: "Saturday - Thursday: 10:00 AM - 8:00 PM",
+  },
+  social: {
+    facebook: "https://facebook.com",
+    instagram: "https://instagram.com",
+    tiktok: "https://tiktok.com",
+    youtube: "https://youtube.com",
+  },
+  navLinks: [
+    { title: "শপ", href: "/shop" },
+    { title: "অর্ডার ট্র্যাক", href: "/track-order" },
+    { title: "যোগাযোগ", href: "/contact" },
+  ],
+  categories: [
+    { name: "Lighting", slug: "lighting", icon: "Lightbulb" },
+    { name: "Smart Watch", slug: "smart-watch", icon: "Watch" },
+    { name: "Microphone", slug: "microphone", icon: "Mic" },
+    { name: "Tripods & Stand", slug: "tripods-stand", icon: "Camera" },
+    { name: "Earbuds", slug: "earbuds", icon: "Headphones" },
+    { name: "Accessories", slug: "accessories", icon: "Smartphone" },
+  ],
+  customerServiceLinks: [
+    { title: "Shipping Policy", href: "/shipping-policy" },
+    { title: "Refund Policy", href: "/refund-policy" },
+    { title: "Privacy Policy", href: "/privacy-policy" },
+    { title: "Terms & Conditions", href: "/terms-and-conditions" },
+    { title: "FAQ", href: "/faq" },
+  ],
+  footerUsefulLinks: [
+    { title: "শপ", href: "/shop" },
+    { title: "অর্ডার ট্র্যাক", href: "/track-order" },
+    { title: "যোগাযোগ", href: "/contact" },
+    { title: "কার্ট", href: "/cart" },
+    { title: "আমার অ্যাকাউন্ট", href: "/my-account" },
+  ],
+};
